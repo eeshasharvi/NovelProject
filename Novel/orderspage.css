@@ -1,0 +1,29 @@
+.image-holder:hover {
+    border: 1px solid #777;
+    transform: scale(1.05,1.05);
+  }
+ 
+.gallery{
+    
+    display: flex;
+    flex-direction: row; 
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.gallery img{
+    height: 250px;
+    width:200px;
+}
+nav{
+    background-color: #F1EAFF;
+    width: auto;
+    height: 45px;
+    max-width: auto;
+    text-align: left;
+    word-spacing: 30px;
+}
+marquee{
+    background-color: #e2d4fe;
+    height: 35px;
+}
